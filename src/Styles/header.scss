@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    margin: 0;
+    padding: 0 0px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 15px 10px -15px #1111112b;
+    position: sticky;
+    z-index: 1024;
+    top: 0;
+  }
+ 
+  
+  
+  .nav-brand,
+.cart-container {
+    a, button {
+        display: flex;
+        align-items: center;
+        padding: 12px 32px;
+        text-decoration: none;
+        color: white;
+        font-size: 28px;
+
+        svg {
+            margin-left: 8px;
+            font-size: 30px;
+        }
+    }
+
+}
+  
+  
+  nav ul {
+    list-style-type: none;
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+   
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #3498db;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search input {
+    padding: 8px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .search button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cart{
+    
+    padding-right:30px;
+    .cart-button {
+      position: relative;
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .cart-count {
+      position: absolute;
+      top: -8px;
+      right: -8px;
+      background-color: #e74c3c;
+      color: #fff;
+      border-radius: 50%;
+      padding: 5px 8px;
+      font-size: 12px;
+    }
+  }
+  
+  
